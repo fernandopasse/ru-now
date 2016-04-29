@@ -1,6 +1,6 @@
 import React from 'react'
 import Meal from './Meal'
-import MealList from './MealList'
+import MealListContainer from '../containers/MealListContainer'
 import Meat from './Meat'
 import Stars from './Stars'
 import Tabs from './Tabs'
@@ -10,7 +10,7 @@ const MealLayout = ({isLogged, userData, time }) =>  {
     return (
       <div>
         <Meal />
-        <MealList />
+        <MealListContainer />
         <Meat />
         <Stars />
         <Tabs />
